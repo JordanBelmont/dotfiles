@@ -46,6 +46,7 @@ source $ZSH/oh-my-zsh.sh
 
 # VARIABLES
 export MANPAGER="sh -c 'col -bx | bat -1 man -p'"
+export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # ALIASES
 alias cat='bat'
