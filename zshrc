@@ -44,6 +44,9 @@ function mkcd() {
 # SOURCE
 source $ZSH/oh-my-zsh.sh
 
+# VARIABLES
+export MANPAGER="sh -c 'col -bx | bat -1 man -p'"
+
 # ALIASES
 alias cat='bat'
 alias ls='lsd -lhFA'
@@ -51,3 +54,4 @@ alias ls='lsd -lhFA'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source /Users/jordanbelmont/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
