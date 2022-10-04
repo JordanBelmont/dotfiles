@@ -25,3 +25,9 @@ cask "dropbox"
 cask "font-fira-code"
 # Git client focusing on productivity
 cask "gitkraken"
+mas "Adblock Plus", id: 1432731683
+mas "ColorSlurp", id: 1287239339
+mas "GarageBand", id: 682658836
+mas "Monosnap", id: 540348655
+mas "NordVPN", id: 905953485
+mas "WhatsApp", id: 1147396723
