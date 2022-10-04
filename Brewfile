@@ -10,6 +10,8 @@ brew "git"
 brew "httpie"
 # Clone of ls with colorful output, file type icons, and more
 brew "lsd"
+# Mac App Store command-line interface
+brew "mas"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
 # Platform built on V8 to build network applications
