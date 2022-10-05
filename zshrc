@@ -45,12 +45,12 @@ function mkcd() {
 source $ZSH/oh-my-zsh.sh
 
 # VARIABLES
-export MANPAGER="sh -c 'col -bx | bat -1 man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # ALIASES
 alias cat='bat'
 alias ls='lsd -lhFA'
+alias man='batman'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
