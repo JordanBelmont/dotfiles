@@ -32,6 +32,8 @@ DISABLE_UPDATE_PROMPT="true"
 
 # HISTORY
 HIST_STAMPS="dd.mm.yyyy"
+SAVEHIST=0
+HISTSIZE=0
 
 # PLUGINS
 plugins=(git)
@@ -42,6 +44,8 @@ function mkcd() {
 }
 
 # SOURCE
+export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
+# Removes .zcompdump files from Home Directory
 source $ZSH/oh-my-zsh.sh
 
 # VARIABLES
