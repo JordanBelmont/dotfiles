@@ -8,3 +8,6 @@
 	email = 55675483+JordanBelmont@users.noreply.github.com
 [core]
 	editor = code --wait
+[alias]
+   l = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+   ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
