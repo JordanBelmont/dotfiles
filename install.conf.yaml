@@ -6,7 +6,11 @@
 
 - link:
     ~/.zshrc:
+    ~/.p10k.zsh:
     ~/.gitconfig:
+    ~/.config/bat:
+      create: true
+      path: config/bat
 
 - create:
     - ~/Work
