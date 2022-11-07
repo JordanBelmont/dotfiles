@@ -25,6 +25,7 @@ brew "eth-p/software/bat-extras"
 cask "alfred"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
+# Free monospaced font with programming ligatures
 cask "font-fira-code"
 # Git client focusing on productivity
 cask "gitkraken"

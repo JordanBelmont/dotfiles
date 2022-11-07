@@ -12,4 +12,4 @@ I'm learning about dotfiles at [http://dotfiles.eieio.xyz).
 - Trackpad (three finger drag and tap to click)
 - Git (config and SSH)
 - Alfred (turn off Spotlight shortcut and use Alfred)
-- Monosnap (turn off screenshot key combination and use Monosnap)
+- Monosnap (turn off cmd+shift+4 key combination and use Monosnap)

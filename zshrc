@@ -17,12 +17,6 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 ZSH_THEME="powerlevel10k/powerlevel10k"
 POWERLEVEL9K_MODE="nerdfont-complete"
 
-# PROMPTS
-# POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status battery)
-# POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-# POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%F{red}\uF460%f"
-# POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
-
 # WHOAMI
 DEFAULT_USER=whoami
 
