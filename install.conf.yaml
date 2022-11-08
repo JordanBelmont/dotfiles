@@ -6,6 +6,7 @@
 
 - link:
     ~/.zshrc:
+    ~/.zshenv:
     ~/.p10k.zsh:
     ~/.gitconfig:
     ~/.config/bat:
@@ -20,4 +21,3 @@
     command: ./setup_homebrew.zsh
     stdout: true
     stderr: true
-
