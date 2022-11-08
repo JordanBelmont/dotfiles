@@ -6,7 +6,7 @@ source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
 # MESSAGE
-echo "Changes Accepted"
+echo ".zshrc Changes Accepted"
 
 # PATH
 export ZSH="/Users/jordanbelmont/.oh-my-zsh"
