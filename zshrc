@@ -44,6 +44,7 @@ source $ZSH/oh-my-zsh.sh
 
 # VARIABLES
 export HOMEBREW_CASK_OPTS="--no-quarantine"
+export NULLCMD=bat
 
 # ALIASES
 alias cat='bat'
