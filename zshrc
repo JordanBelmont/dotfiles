@@ -49,6 +49,7 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 alias cat='bat'
 alias ls='lsd -lhFA'
 alias man='batman'
+alias bbd='brew bundle dump --force --describe'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
