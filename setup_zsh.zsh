@@ -16,3 +16,14 @@ else
    echo 'Enter user password to change login shell'
    chsh -s '/usr/local/bin/zsh'
 fi
+
+if sh --version | grep -q zsh; then
+   echo '/private/var/select/sh already linked to /bin/zsh'
+else
+   echo 'Enter superuser (sudo) password to symlink sh to zsh'
+   sudo ln -sfv /bin/zsh /private/var/select/sh
+fi
+
+
+echo "Enter superuser (sudo) password to symlink sh to zsh"
+sudo ln -sfv /bin/zsh /private/var/select/sh
