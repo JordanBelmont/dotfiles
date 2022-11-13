@@ -44,10 +44,9 @@ export N_PREFIX="$HOME/.n"
 export PREFIX="$N_PREFIX"
 
 # PATH
+export PATH="$N_PREFIX/bin:$PATH"
 export ZSH="/Users/jordanbelmont/.oh-my-zsh"
-# Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-export PATH="$PATH:$N_PREFIX/bin"
 
 # ALIASES
 alias cat='bat'
