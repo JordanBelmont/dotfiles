@@ -15,6 +15,8 @@ brew "less"
 brew "lsd"
 # Mac App Store command-line interface
 brew "mas"
+# Node version management
+brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
 # Platform built on V8 to build network applications
