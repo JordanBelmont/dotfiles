@@ -42,11 +42,16 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 export NULLCMD=bat
 export N_PREFIX="$HOME/.n"
 export PREFIX="$N_PREFIX"
-
-# PATH
-export PATH="$N_PREFIX/bin:$PATH"
 export ZSH="/Users/jordanbelmont/.oh-my-zsh"
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+# path ARRAY
+typeset -U path
+
+path=(
+   "$N_PREFIX/bin"
+   $path
+   "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+)
 
 # ALIASES
 alias cat='bat'
